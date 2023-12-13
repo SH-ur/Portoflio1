@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 20px;
+  
+background: goldenrod;
+width: 12rem;
+margin-left: 0px;
+
+height: calc(100vh - 52px);
+}
+
+.item{
+  border: 5px pink solid;
+  gap: 20px;
+    width: 100px;
+    height: 30px;
+    margin: 0px;
+}
