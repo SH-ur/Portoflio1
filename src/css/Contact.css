@@ -1,0 +1,8 @@
+.contactIcons {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1.5rem;
+    border: greenyellow solid 3px;
+}
