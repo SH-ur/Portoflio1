@@ -1,5 +1,7 @@
 /* eslint-disable react/prop-types */
 // eslint-disable-next-line react/prop-types
+import iconsRender from "../Views/utils";
+
 export const Card = ({proyect})=>{
     // eslint-disable-next-line react/prop-types
     const {nombre, colaboradores, descripcion, url, tecnologias} = proyect;
@@ -13,7 +15,7 @@ export const Card = ({proyect})=>{
     <h2>{descripcion}</h2>
 </div>
 <div>
-    <p> Se usaron las siguientes tecnologias: { tecnologias?.map(tech=> ` ${tech} `) }</p> 
+    <p style={{fontSize: '30px', display: 'flex', alignItems:'normal', justifyContent:'center'}}> Se usaron las siguientes tecnologias: { tecnologias?.map(tech=> iconsRender(tech)) }</p> 
 </div>
 
 <div>
