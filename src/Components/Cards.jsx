@@ -1,4 +1,4 @@
-import {data} from '../data';
+import data from '../data';
 import { Card } from './Card';
 export const Cards = ()=>{
     return(

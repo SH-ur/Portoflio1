@@ -1,6 +1,6 @@
 //Bueno gente, aqui ira la info
 
-export const data= [
+ const data= [
     {
         nombre: 'Bookstore',
         colaboradores: ['Alejandro Aranguren', 'Santiago Soto', 'Jose Fuenmayor', 'Enzo Magurno', 'Sasha Camar', 'Daniel Luevano', 'Brandon Galarza', 'Nazareno Lujan'],
@@ -18,3 +18,4 @@ url: 'https://videogame-app-nu.vercel.app/',
 imagen: ''
     }
 ]
+export default data;

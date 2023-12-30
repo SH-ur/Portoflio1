@@ -6,15 +6,21 @@
   
 background: goldenrod;
 width: 9rem;
-margin-left: 10px;
+margin-left: 0px;
 
 height: calc(100vh - 52px);
 }
 
 .item{
-  border: 5px pink solid;
-  gap: 10%;
-    width: 100px;
-    height: 30px;
-    margin: 0px;
+  display: flex;
+  justify-content: space-around;
+  border: 0.5rem darkcyan solid;
+}
+
+.sidebar{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  flex-wrap: wrap;
 }

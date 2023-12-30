@@ -1,0 +1,6 @@
+.main-Items{
+  display: flex;
+  align-items: flex-end;
+  text-align: justify;
+  box-shadow: crimson;
+}
