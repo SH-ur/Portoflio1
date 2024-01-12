@@ -9,22 +9,22 @@ export const Navbar = () => {
     <div className="container">
       
         
-          <Link to="/home" className="item">
+          <Link to="/home" className="Link">
             {" "}
-            <IoIosHome size="45px"/>Home
+            <IoIosHome size="45px" className="item"/>
           </Link>
         
         
-          <Link to="/proyects" className="item">
+          <Link to="/proyects" className="Link">
             {" "}
-            <BsFillArchiveFill size='45px'/>{" "}
+            <BsFillArchiveFill size='45px' className="item"/>{" "}
           </Link>
         
         
-          <Link to="/Contact" className="item">
+          <Link to="/Contact" className="Link">
             {" "}
-            <FcContacts size="50px"/>
-            Contact{" "}
+            <FcContacts size="50px" className="item"/>
+            {" "}
           </Link>
     </div>
   );

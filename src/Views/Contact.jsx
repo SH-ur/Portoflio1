@@ -1,16 +1,27 @@
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
-import '../css/Contact.css'
+import { FaRegArrowAltCircleDown } from "react-icons/fa";
 
-export const Contact =()=>{
-    return (
-        <div style={{marginLeft: '535px', border: 'solid blue 20px'}}>
-            <strong style={{textAlign: 'center', color: 'golden'}}>Por acá irán los distintos medios de contacto</strong>
+import "../css/Contact.css";
 
-            <div className='contactIcons'>
-               <a href="https://github.com/SH-ur" target="_blank" rel="noreferrer"> <AiFillGithub size='100px' color='yellow'/> </a>
-<a href='https://www.linkedin.com/in/santiago-soto-43ab99260/' target='_blank' rel='noreferrer'> <AiFillLinkedin size='100px' color='blue'/></a>
-
-            </div>
-        </div>
-    )
-}
+export const Contact = () => {
+  return (
+    <div
+    ><p><strong> Para contactar por aquí</strong></p>
+    <FaRegArrowAltCircleDown size="200px" className="arrow"/>
+      <div className="contactIcons">
+        <a href="https://github.com/SH-ur" target="_blank" rel="noreferrer" >
+          {" "}
+          <AiFillGithub size="230px" color="yellow" className="GithubIcon"/>{" "}
+        </a>
+        <a
+          href="https://www.linkedin.com/in/santiago-soto-43ab99260/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          {" "}
+          <AiFillLinkedin size="230px" color="blue" />
+        </a>
+      </div>
+    </div>
+  );
+};
