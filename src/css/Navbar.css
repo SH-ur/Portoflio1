@@ -11,11 +11,17 @@ margin-left: 0px;
 height: calc(100vh - 52px);
 }
 
-.item{
+.Link{
   display: flex;
   justify-content: space-around;
-  border: 0.5rem darkcyan solid;
 }
+
+.Link .item{
+  display: flex;
+  justify-content: center;
+  outline: red 0.2rem solid;
+}
+
 
 .sidebar{
   display: flex;
